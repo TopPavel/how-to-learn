@@ -1,3 +1,10 @@
 .video__iframes {
-
+  margin: 50px auto 0;
+  height: 316px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  overflow: visible;
+  padding-inline-start: 0;
+  list-style-type: none;
 }
