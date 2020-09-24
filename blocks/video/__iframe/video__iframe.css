@@ -1,7 +1,6 @@
 .video__iframe {
   box-sizing: border-box;
   padding: 0;
-
 }
 
 .video__iframe:not(:last-child) {

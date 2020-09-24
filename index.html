@@ -4,13 +4,12 @@
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Научиться учиться</title>
-  <link href="./vendor/normalize.css" rel="stylesheet">
   <link href="./pages/index.css" rel="stylesheet">
 </head>
 <body>
 <div class="page">
   <header class="header">
-    <img alt="Yandex Praktikum" class="logo logo_place_header" src="./images/logo_place_header.svg">
+    <img alt="Логотип Яндекс.Практикум" class="logo logo_place_header" src="./images/logo_place_header.svg">
     <h1 class="header__title">Научиться учиться</h1>
     <p class="header__subtitle">
       Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
@@ -49,29 +48,29 @@
       <p class="section-subtitle">Пять практик от Барбары Оакли</p>
       <ul class="cards">
         <li class="cards__item">
-          <img alt="attention image" class="cards__image" src="./images/cards-attention.png">
+          <img alt="Картинка 'Внимательность'" class="cards__image" src="./images/cards-attention.png">
           <h3 class="cards__title">Два вида внимания</h3>
           <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное
             мышление.</p>
         </li>
         <li class="cards__item">
-          <img alt="recall image" class="cards__image" src="./images/cards-recall.png">
+          <img alt="Картинка 'Воспоминание'" class="cards__image" src="./images/cards-recall.png">
           <h3 class="cards__title">Recall</h3>
           <p class="cards__description">Вспоминайте изученное - это позволит соединить разрозненные порции памяти.</p>
         </li>
         <li class="cards__item">
-          <img alt="interliving image" class="cards__image" src="./images/cards-interliving.png">
+          <img alt="Картинка 'Интерливинг' image" class="cards__image" src="./images/cards-interliving.png">
           <h3 class="cards__title">Интерливинг</h3>
           <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
         </li>
         <li class="cards__item">
-          <img alt="question image" class="cards__image" src="./images/cards-question.png">
+          <img alt="Картинка 'Вопросы'" class="cards__image" src="./images/cards-question.png">
           <h3 class="cards__title">Вопросы</h3>
           <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
             волнует.</p>
         </li>
         <li class="cards__item">
-          <img alt="competence image" class="cards__image" src="./images/cards-competence.png">
+          <img alt="Картинка 'Иллюзия компетенции'" class="cards__image" src="./images/cards-competence.png">
           <h3 class="cards__title">Иллюзия компетенции</h3>
           <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
             владеете новой темой.</p>
@@ -83,13 +82,10 @@
       <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
       <ul class="video__iframes">
         <li class="video__iframe">
-          <iframe allowfullscreen frameborder="0" height="316" id="ted1" src="https://www.youtube.com/embed/arj7oStGLkU"
-                  type="text/html" width="515"></iframe>
+          <iframe allowfullscreen class="video__ted" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
         </li>
         <li class="video__iframe">
-          <iframe allowfullscreen frameborder="0" height="316" id="ted2" src="https://www.youtube.com/embed/5MgBikgcWnY"
-                  type="text/html" width="515">
-          </iframe>
+          <iframe allowfullscreen class="video__ted" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
         </li>
       </ul>
     </section>
@@ -164,7 +160,7 @@
         <p class="khan__quote-author">Джордж Лукас</p>
         <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
         <div class="khan__book-container">
-          <img alt="khan book image" class="khan__book-pic" src="./images/khan-book.jpg">
+          <img alt="Обложка книги 'Весь мир - школа'" class="khan__book-pic" src="./images/khan-book.jpg">
           <a class="khan__buy-link" href="">Купить книгу &rarr;</a>
         </div>
       </div>
@@ -222,16 +218,16 @@
       <p class="section-subtitle">Больше материалов о техниках лайфхаках обучения</p>
       <ul class="resources__logo-zone">
         <li class="resources__logo">
-          <img alt="'arzamas' logo" src="./images/logo/resources-arzamas.svg">
+          <img alt="'Арзамас' логотип" class="resources__logo-image" src="./images/logo/resources-arzamas.svg">
         </li>
         <li class="resources__logo">
-          <img alt="'n1' logo" src="./images/logo/resources-n1.svg">
+          <img alt="'Н1' логотип" class="resources__logo-image" src="./images/logo/resources-n1.svg">
         </li>
         <li class="resources__logo">
-          <img alt="'strelka' logo" src="./images/logo/resources-strelka.svg">
+          <img alt="'Стрелка' логотип" class="resources__logo-image" src="./images/logo/resources-strelka.svg">
         </li>
         <li class="resources__logo">
-          <img alt="'polka' logo" src="./images/logo/resources-polka.svg">
+          <img alt="'Полка' логотип" class="resources__logo-image" src="./images/logo/resources-polka.svg">
         </li>
       </ul>
     </section>
@@ -239,17 +235,19 @@
   <footer class="footer">
     <div class="footer__columns">
       <div class="footer__column footer__column_content_copyright">
-        <img alt="yandex practicum logo" class="logo logo_place_footer" src="./images/logo_place_footer.svg">
+        <img alt="Логотип Яндекс.Практикум" class="logo logo_place_footer" src="./images/logo_place_footer.svg">
         <p class="footer__author">&copy; Toporov Pavel</p>
       </div>
       <div class="footer__column footer__column_content_info">
         <h3 class="footer__column-heading">О Практикуме</h3>
         <nav>
           <ul class="footer__column-links">
-            <li><a class="footer__link" href="https://praktikum.yandex.ru/" target="_blank">Главная</a></li>
-            <li><a class="footer__link" href="https://yandex.ru/support/praktikum/" target="_blank">Концепция</a></li>
+            <li><a class="footer__link" href="https://praktikum.yandex.ru/" rel="noopener" target="_blank">Главная</a>
+            </li>
+            <li><a class="footer__link" href="https://yandex.ru/support/praktikum/" rel="noopener" target="_blank">Концепция</a>
+            </li>
             <li><a class="footer__link" href="https://yandex.ru/support/praktikum/mentors.html"
-                   target="_blank">Наставники</a></li>
+                   rel="noopener" target="_blank">Наставники</a></li>
           </ul>
         </nav>
       </div>
@@ -258,20 +256,20 @@
         <nav>
           <ul class="footer__column-links">
             <li>
-              <a class="footer__link" href="#" target="_blank">
-                <img alt="facebook logo" class="footer__social-icon" src="./images/facebook_color_white.svg">
+              <a class="footer__link" href="#" rel="noopener" target="_blank">
+                <img alt="'Фэйсбук' логотип" class="footer__social-icon" src="./images/facebook_color_white.svg">
                 Facebook
               </a>
             </li>
             <li>
-              <a class="footer__link" href="#" target="_blank">
-                <img alt="vk logo" class="footer__social-icon" src="./images/vk_color_white.svg">
+              <a class="footer__link" href="#" rel="noopener" target="_blank">
+                <img alt="'ВК' логотип" class="footer__social-icon" src="./images/vk_color_white.svg">
                 ВКонтакте
               </a>
             </li>
             <li>
-              <a class="footer__link" href="#" target="_blank">
-                <img alt="instagram logo" class="footer__social-icon" src="./images/instagram_color_white.svg">
+              <a class="footer__link" href="#" rel="noopener" target="_blank">
+                <img alt="'Инстаграм' логотип" class="footer__social-icon" src="./images/instagram_color_white.svg">
                 Instagram
               </a>
             </li>

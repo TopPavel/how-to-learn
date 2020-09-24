@@ -1,0 +1,11 @@
+.resources__logo-image {
+  width: inherit;
+  height: inherit;
+  padding: 3px 0;
+  box-sizing: border-box;
+  transition: opacity .2s;
+}
+
+.resources__logo-image:hover {
+  opacity: .7;
+}
